@@ -1,0 +1,108 @@
+/* ESTILOS GENERALES */
+
+/* 1rem=16px - NO SE CAMBIA- */
+/* tipo desde googlefonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*  font-family: "Montserrat", sans-serif; */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+     
+     background-color:#282828;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 3rem;
+
+}
+
+header img {
+    width: 150px;
+}
+
+/* NAVEGACION */
+
+nav ul { 
+     display: flex;
+     gap: 2rem;
+     list-style: none;
+     
+}
+
+nav a {
+     color:#F5EFE3;
+     text-decoration-line: none;
+}
+
+
+/* HERO*/
+
+.hero {
+     background-color: #282828;
+     min-height: 70vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: #F5EFE3;
+     gap: 1rem;
+    
+}
+
+.hero h1 {
+     font-size: 3rem;
+     font-weight: 700;
+     word-spacing: 1rem;
+     margin-bottom: 0;
+        }
+
+.hero p {
+     font-size: 1.2rem;
+     font-weight: 300;
+     margin-top: 0rem;
+     margin-bottom: 0;
+        }
+
+
+.button {
+     background-color: #B65F4A;
+     color: #F5EFE3;
+     text-decoration: none;
+     padding: 1rem 2rem;
+     margin-top: 5rem;
+     font-weight: 600;
+}
+/* CONTENIDO PAGINAS INTERNAS */
+.contenido {
+     background-color: #F5EFE3;
+     color: #282828;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+.contenido h1 {
+     font-size: 2.5rem;
+     font-weight: 700;
+}    
+.contenido p {
+     font-size: 1rem;
+     font-weight: 300;
+}
+
+.contenido h2{
+     font-size: 2.5rem;
+     font-weight: 300;
+}
+
+/* FOOTER */
+footer {
+     background-color: #282828;
+     color: #F5EFE3;
+     text-align: center;
+}
