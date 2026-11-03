@@ -151,7 +151,7 @@ nav a {
      border: 0.1rem solid #B65F4A;
      
 }
-.caballos img {
+.caballos > img {
      grid-area: foto;
      width: 100%;
      height: auto;
@@ -162,6 +162,7 @@ nav a {
      display: flex;
      flex-direction: column;
      gap: 1rem;
+     min-width: 0;
 }
 .detalle {
      padding: 2rem;
@@ -186,10 +187,14 @@ footer {
      }
      .caballos {
           grid-template-columns: 1fr 2fr;
-          grid-template-areas:
-         "foto descripcion";
+          grid-template-areas: "foto descripcion";
      }
       .hero h1 {
           font-size: 3rem;
      }
+     .pedigree {
+     width: 100%;
+     height: auto;
+     display: block;
+}
 }
