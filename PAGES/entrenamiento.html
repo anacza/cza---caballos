@@ -3,44 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/Styles.css">
     <title>Entrenamiento | CZA CABALLOS</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/Styles.css">
 </head>
+
 <body>
     <header>
-        <img src="../IMAGENES/D2CE9038-14D4-47EE-8F7A-A4907A06E8D1.PNG" alt="imagen logo cza">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./caballos.html">Caballos</a></li>
-                <li><a href="./entrenamiento.html">Entrenamiento</a></li>
-                <li><a href="./clases.html">Clases</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg w-100" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img
+                        src="../IMAGENES/D2CE9038-14D4-47EE-8F7A-A4907A06E8D1.PNG"
+                        alt="CZA Caballos">
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuCZA"
+                    aria-controls="menuCZA"
+                    aria-expanded="false"
+                    aria-label="Abrir o cerrar menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuCZA">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./caballos.html">Caballos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="./entrenamiento.html">Entrenamiento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./clases.html">Clases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-<main>
-    <section class="contenido">
-        <h1>ENTRENAMIENTO</h1>
-        <p>Formacion y entrenamiento de caballos jovenes de salto.</p>
-    </section>    
+    <main class="pagina-entrenamiento">
+        <section class="contenido">
+            <h1>ENTRENAMIENTO</h1>
+            <p>Formación y entrenamiento de caballos jóvenes de salto.</p>
+        </section>
 
-    <article class="detalle">
-    <h2>¿CÓMO TRABAJAMOS?</h2>
-    <p>
+        <article class="detalle">
+            <h2>¿CÓMO TRABAJAMOS?</h2>
+            <!-- Formación progresiva y respeto por cada caballo -->
 <p>
-    Adaptamos el trabajo a la edad y al nivel de cada caballo,
-    combinando trabajo en pista con baras y ejercicios de iniciación al salto,
-    respetando sus tiempos de aprendizaje.
+    Desarrollamos una formación progresiva, adaptada a la edad
+    y al nivel de cada caballo. Respetamos sus tiempos de
+    aprendizaje y maduración, consolidando cada etapa antes
+    de avanzar hacia nuevos desafíos.
 </p>
-    </p>
-</article>
 
-</main>
+<!-- Trabajo en pista -->
+<p>
+    Combinamos trabajo de base en paso, trote y galope,
+    transiciones y ejercicios con barras en el suelo,
+    incorporando la iniciación al salto de manera gradual.
+</p>
+        </article>
+    </main>
 
-<footer>
+    <footer>
         <p>&copy; 2026 CZA CABALLOS</p>
-</footer>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html> 
+</html>
